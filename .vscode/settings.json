@@ -1,0 +1,10 @@
+{
+    "files.exclude": {
+        "**/.ssh": true,
+        "**/.cache": true,
+        "**/.config": true,
+        "**/.docker": true,
+        "**/.vscode-server": true,
+        "**/.gnupg": true,
+    }
+}
