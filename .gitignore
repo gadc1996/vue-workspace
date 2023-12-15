@@ -5,3 +5,5 @@
 .vscode-server
 .gitconfig
 .gnupg
+.bun
+.bash_history

@@ -1,7 +1,7 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/docker-existing-docker-compose
 {
-	"name": "Dev Container Workspace",
+	"name": "Vue Workspace",
 	"dockerComposeFile": "docker-compose.yml",
 	"service": "app",
 	"workspaceFolder": "/home/devcontainer",
@@ -9,12 +9,10 @@
 		"vscode": {
 			"extensions": [
 				"googlecloudtools.cloudcode"
-			]
-		}
+			],
+		},
 	},
 	"overrideCommand": true,
 	"remoteUser": "devcontainer",
-	"features": {
-		// "ghcr.io/dhoeric/features/google-cloud-cli:1": {}
-	}
+	},
 }
